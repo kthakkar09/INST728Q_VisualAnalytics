@@ -12,14 +12,10 @@ Key Findings
  
 1.  Popular and TV shows and movies have a template of sentiment variability in their scripts. 
 2. 	It is interesting to note that popular movies and shows have similar emotion variability across the length of the script which makes a strong argument that most audiences have a strong preference some of these templates.
-3.  Author/Show producers on Game of Thrones tend to kill characters as they get older or if they are affiliated to a particular house/group.
  
 Analysis
 
 Script Analysis in R
 Identified and downloaded scripts for top movies and Game of Thrones episodes on IMDB.
-Analysis done using the “syuzhet” package in R (“bing method”). After normalization, Fourier Transforms and Moving Average techniques for smoothing raw sentiment values were used. We used a bin size of 1% (of the total sentences in the script) to compare scripts of different length side by side.
+Analysis done using the “syuzhet” package in R (“bing method”). After normalization, Fourier Transforms and Moving Average techniques for smoothing raw sentiment values were used. We used a bin size of 1% (of the total sentences in the script) to compare scripts of different length side by side. For visualization purposes we have used various smoothening techniques like Moving Average, Fourier Transforms and Discrete Cosine Transforms.
 
-Data sources
-1.     https://jordanschermer.wordpress.com/2014/08/06/valar-morghulis/
-2.    Game of Thrones Scripts
